@@ -14,6 +14,7 @@
 		76EC4B17201861F600E943EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EC4B16201861F600E943EB /* Assets.xcassets */; };
 		76EC4B1A201861F600E943EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EC4B18201861F600E943EB /* LaunchScreen.storyboard */; };
 		76EC4B1D201861F600E943EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC4B1C201861F600E943EB /* main.m */; };
+		76EC4B262018629300E943EB /* TimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC4B242018629200E943EB /* TimeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		76EC4B19201861F600E943EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76EC4B1B201861F600E943EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76EC4B1C201861F600E943EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76EC4B242018629200E943EB /* TimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeManager.m; sourceTree = "<group>"; };
+		76EC4B252018629200E943EB /* TimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		76EC4B09201861F600E943EB /* TimeManager */ = {
 			isa = PBXGroup;
 			children = (
+				76EC4B232018629200E943EB /* LpTimeManager */,
 				76EC4B0A201861F600E943EB /* AppDelegate.h */,
 				76EC4B0B201861F600E943EB /* AppDelegate.m */,
 				76EC4B0D201861F600E943EB /* ViewController.h */,
@@ -73,6 +77,15 @@
 			);
 			path = TimeManager;
 			sourceTree = "<group>";
+		};
+		76EC4B232018629200E943EB /* LpTimeManager */ = {
+			isa = PBXGroup;
+			children = (
+				76EC4B252018629200E943EB /* TimeManager.h */,
+				76EC4B242018629200E943EB /* TimeManager.m */,
+			);
+			path = LpTimeManager;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -147,6 +160,7 @@
 			files = (
 				76EC4B0F201861F600E943EB /* ViewController.m in Sources */,
 				76EC4B0C201861F600E943EB /* AppDelegate.m in Sources */,
+				76EC4B262018629300E943EB /* TimeManager.m in Sources */,
 				76EC4B1D201861F600E943EB /* main.m in Sources */,
 				76EC4B15201861F600E943EB /* TimeManager.xcdatamodeld in Sources */,
 			);
